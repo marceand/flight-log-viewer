@@ -146,7 +146,7 @@ def parse_flight_log(filename):
             print("Unknown log type at", offset, "type =", log_type)
             break
 
-    # ================== Validate last entry only ==================
+    # ================== Validate last record only ==================
 
     is_last_record_removed = False
     if len(logs) > 0:
