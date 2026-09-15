@@ -1,0 +1,2 @@
+# Ignore flight log binary files
+flight_log_*.bin
