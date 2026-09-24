@@ -186,7 +186,7 @@ def record_row_is_valid(row):
 
 # ================== PLOT ==================
 
-def plot_logs(parameters, df_logs):
+def plot_flight_data(parameters, df_logs):
 
     if parameters is None:
         print("Parameters is empty")
@@ -330,4 +330,4 @@ def plot_logs(parameters, df_logs):
 if __name__ == "__main__":
     filename = "flight_log_004.bin"
     parameters, df_logs = parse_flight_log(filename)
-    plot_logs(parameters, df_logs)
+    plot_flight_data(parameters, df_logs)
